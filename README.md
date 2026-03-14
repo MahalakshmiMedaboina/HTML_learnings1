@@ -1,6 +1,6 @@
 # HTML Learnings Project
 
-This is a simple HTML project created as part of my Udemy HTML learning course. It demonstrates basic HTML structure and includes examples of headings, hyperlinks, images, and tables, lists: ordered lists and unordered lists, forms.
+This is a simple HTML project created as part of my Udemy HTML learning course. It demonstrates basic HTML structure and includes examples of headings, hyperlinks, images, and tables, lists: ordered lists and unordered lists, forms, buttons.
 
 ## Features
 
@@ -12,6 +12,7 @@ This is a simple HTML project created as part of my Udemy HTML learning course. 
 - Created Unordered lists & Ordered lists
 - Forms contains firstname, lastname, age, email, password, sumbit button.
 - added Selectors: ID, class, data-test for tables, lists & forms.
+- created buttons for navigation with selectors
 
 ## How to View
 
