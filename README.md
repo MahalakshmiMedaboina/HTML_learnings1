@@ -11,6 +11,7 @@ This is a simple HTML project created as part of my Udemy HTML learning course. 
 - HTML table with headers and data rows
 - Created Unordered lists & Ordered lists
 - Forms contains firstname, lastname, age, email, password, sumbit button.
+- added Selectors: ID, class, data-test for tables, lists & forms.
 
 ## How to View
 
@@ -24,3 +25,15 @@ Simply open the `index.html` file in any web browser to see the page.
 ## Technologies Used
 
 - HTML5
+
+# 🎯 HTML Selectors for Test Automation
+
+## Selector Types (Priority Order)
+
+| Priority | Attribute | CSS Selector | Stability | Example |
+|----------|-----------|--------------|-----------|---------|
+| 🥇 **BEST** | `data-testid` | `[data-testid="login-btn"]` | 🔒 **Very High** | `<button data-testid="login-btn">` |
+| 🥈 **Good** | `id` | `#main-form` | 🔐 **High** | `<form id="main-form">` |
+| 🥉 **Avoid** | `class` | `.btn-primary` | ⚠️ **Low** (changes often) | `<button class="btn-primary">` |
+
+

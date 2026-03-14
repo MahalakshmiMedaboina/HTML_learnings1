@@ -29,49 +29,88 @@
     <img src="http://www.easytolearning.com/webroot/ck_files/files/html-image-tag.png" alt="Image not found" width="500" height="400">
     <br>
 
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>City</th>
-        </tr>
-        <tr>
-            <td>John Doe</td>
-            <td>30</td>
-            <td>New York</td>
-        </tr>
-        <tr>
-            <td>Jane Smith</td>
-            <td>25</td>
-            <td>Los Angeles</td>
-        </tr>
-    </table>
+<table id="users-table" data-testid="users-table" class="data-table">
+    <!-- Header Row -->
+    <tr data-testid="header-row" class="table-header">
+        <th data-testid="name-header" class="table-header-cell">Name</th>
+        <th data-testid="age-header" class="table-header-cell">Age</th>
+        <th data-testid="city-header" class="table-header-cell">City</th>
+    </tr>
+    
+    <!-- Data Row 1 -->
+    <tr class="table-row" data-testid="user-row-1">
+        <td data-testid="user-1-name" class="table-cell">John Doe</td>
+        <td data-testid="user-1-age" class="table-cell">30</td>
+        <td data-testid="user-1-city" class="table-cell">New York</td>
+    </tr>
+    
+    <!-- Data Row 2 -->
+    <tr class="table-row" data-testid="user-row-2">
+        <td data-testid="user-2-name" class="table-cell">Jane Smith</td>
+        <td data-testid="user-2-age" class="table-cell">25</td>
+        <td data-testid="user-2-city" class="table-cell">Los Angeles</td>
+    </tr>
+</table>
 
-    <ul>
-        <li>Java</li>
-        <li>python</li>
-        <li>AWS</li>
-    </ul>
 
-    <ol>
-        <li>Robot framework</li>
-        <li>Selenium</li>
-        <li>Cypress</li>
-    </ol>
-    <br>
+<!-- UNORDERED LIST (Programming Skills) -->
+<ul data-testid="skills-list" id="prog-skills" class="tech-stack">
+    <li data-testid="skill-item-1" class="list-item">Java</li>
+    <li data-testid="skill-item-2" class="list-item">Python</li>
+    <li data-testid="skill-item-3" class="list-item">AWS</li>
+</ul>
 
-    <form >
-        First name: <br>
-        <input type="text" placeholder="Enter your first name"><br>
-        Last name: <br>
-        <input type="text" placeholder="Enter your last name"><br>
-        Age: <br>
-        <input type="number" placeholder="Enter your age"><br>
-        Email: <br>
-        <input type="email" placeholder="Enter your email"><br>
-        password: <br>
-        <input type="password" placeholder="Enter your password"><br><br>
-        <input type="submit" value="Submit Form">
-    </form>
+<!-- ORDERED LIST (Automation Tools) -->
+<ol data-testid="tools-list" id="automation-tools" class="tool-list">
+    <li data-testid="tool-item-1" class="list-item">Robot Framework</li>
+    <li data-testid="tool-item-2" class="list-item">Selenium</li>
+    <li data-testid="tool-item-3" class="list-item">Cypress</li>
+</ol>
+<br>
+
+<!-- Form (Login Form) -->
+<form data-testid="login-form" id="main-login" class="user-form">
+    <label>First name:</label><br>
+    <input type="text" 
+           data-testid="first-name-input" 
+           id="firstname" 
+           class="form-input"
+           placeholder="Enter your first name"><br>
+    
+    <label>Last name:</label><br>
+    <input type="text" 
+           data-testid="last-name-input" 
+           id="lastname" 
+           class="form-input"
+           placeholder="Enter your last name"><br>
+    
+    <label>Age:</label><br>
+    <input type="number" 
+           data-testid="age-input" 
+           id="user-age" 
+           class="form-input"
+           placeholder="Enter your age"><br>
+    
+    <label>Email:</label><br>
+    <input type="email" 
+           data-testid="email-input" 
+           id="user-email" 
+           class="form-input"
+           placeholder="Enter your email"><br>
+    
+    <label>Password:</label><br>
+    <input type="password" 
+           data-testid="password-input" 
+           id="user-password" 
+           class="form-input"
+           placeholder="Enter your password"><br><br>
+    
+    <input type="submit" 
+           data-testid="submit-button" 
+           id="form-submit" 
+           class="submit-btn"
+           value="Submit Form">
+</form>
+
 </body>
 </html>
