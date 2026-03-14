@@ -1,6 +1,6 @@
 # HTML Learnings Project
 
-This is a simple HTML project created as part of my Udemy HTML learning course. It demonstrates basic HTML structure and includes examples of headings, paragraphs, hyperlinks, and images.
+This is a simple HTML project created as part of my Udemy HTML learning course. It demonstrates basic HTML structure and includes examples of headings, hyperlinks, images, and tables.
 
 ## Features
 
@@ -8,6 +8,7 @@ This is a simple HTML project created as part of my Udemy HTML learning course. 
 - Basic paragraph element
 - Hyperlinks with different target behaviors (same tab vs new tab)
 - Image elements (including examples with and without src attributes)
+- HTML table with headers and data rows
 
 ## How to View
 
