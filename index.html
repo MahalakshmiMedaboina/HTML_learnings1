@@ -133,5 +133,16 @@
     <li>Checkmark: &check; or &#10004;</li>
   </ul>
 
+  <br>
+
+  <!-- 1. TARGET (gets updated) -->
+<p id="date">No date yet - click button!</p>
+
+<!-- 2. TRIGGER (runs JS on click) -->
+<button onclick="document.getElementById('date').innerHTML = Date();">
+  Click to get date
+</button>
+
+
 </body>
 </html>
