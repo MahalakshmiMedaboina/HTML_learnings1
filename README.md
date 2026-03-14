@@ -1,12 +1,13 @@
 # HTML Learnings Project
 
-This is a simple HTML project created as part of my Udemy HTML learning course. It demonstrates basic HTML structure and includes examples of headings, paragraphs, and hyperlinks.
+This is a simple HTML project created as part of my Udemy HTML learning course. It demonstrates basic HTML structure and includes examples of headings, paragraphs, hyperlinks, and images.
 
 ## Features
 
-- HTML headings (h1 to h6)
+- HTML headings (h1 to h6) with inline formatting tags (italic, strikethrough, mark, bold)
 - Basic paragraph element
 - Hyperlinks with different target behaviors (same tab vs new tab)
+- Image elements (including examples with and without src attributes)
 
 ## How to View
 
